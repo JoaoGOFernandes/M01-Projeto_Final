@@ -1,0 +1,303 @@
+
+#title {
+    background-color: #FF4C68;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80vh;
+
+}
+
+/*ESTILIZANDO A NAVBAR*/
+.navbar{
+    background-color: #FF4C68;
+    
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 0 14px;
+    color: #F2A1B0;
+    font-size: 20px;
+}
+
+.navbar-nav{
+    margin-right: 20%;
+}
+
+.logo-tindog{
+    margin-left: 13%;
+    color: white;
+    font-size: 40px;
+
+}
+
+/*ESTILIZANDO O TITLE*/
+.value-prop{
+    width: 600px;
+    position: relative;
+    top: 10%;
+    left: 15%; 
+    z-index: 1;
+    /* Não ficou responsivel, pq pra % fica? */
+    /* left: 14.375rem;
+    top: 7.5rem;  */
+}
+
+.advertising{
+    font-family: 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    width: 400px;
+    line-height: 90px;
+    word-spacing: 16px;
+}
+
+
+.dog-img{
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    transform: rotate(20deg);
+    height: 620px;
+    z-index: 0;
+}
+
+.install{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: white;
+    font-weight: 200px;
+}
+
+.apple-btn{
+    background-color: #343A40;
+    margin: 1.875rem 1.875rem 0 0;
+}
+
+.google-btn{
+    background-color: #FF4C68;
+    border-color: white;
+    margin: 1.875rem 0 0;
+}
+
+.gplay{
+    width: 20px;
+    text-align: center;
+}
+
+.apple{
+    width: 20px;
+    text-align: center;
+}
+
+/*Estilizando a feature*/
+
+#features {
+    position: relative;
+    height: 60vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+}
+
+/*Como faria pra botar uma cor fora do preset do bootstrap?*/
+#features svg {
+    display: inline-block;
+    width: 50px;
+}
+
+#features h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+#features p {
+    color: #9C9C9C;
+}
+
+#features div {
+    width: 200px;
+}
+
+#testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF8172;
+    height: 60vh;
+}
+
+.dog-testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#testimonials h2{
+    width: 70vw;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 200px 50px;
+}
+
+#testimonials img{
+    border-radius: 100%;
+    width: 100px;
+}
+
+#testimonials em{
+    color: white;
+    font-size: 20px;
+}
+
+#press {
+    background-color: #EF8172;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5%;
+}
+
+#press img{
+    width: 15.625%;
+}
+
+#pricing {
+    background-color: white;
+    height: 120vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #212529; 
+    margin-bottom: 20px;
+}
+
+#pricing p {
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    height: 15px;
+}
+
+.cards {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.card {
+    width: 400px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #212529; 
+}
+
+.card h2 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #212529; 
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card button{
+    width: 350px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.white-btn{
+    background-color: white;
+    color: #212529;
+}
+
+.black-btn{
+    background-color: #343A40;
+    color: white;
+    
+}
+/*ESTILIZANDO O CTA*/
+#cta h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 65px;
+    width: 70vw;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+
+/*Tive que criar uma div, como fazer isso sem div e ainda responsivo?*/
+#cta {
+    background-color: #FF4C68;
+    height: 80vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cta div{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer div{
+    display: flex;
+    gap: 30px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #9C9C9C;
+}
